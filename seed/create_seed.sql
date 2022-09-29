@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS todos(
+    id VARCHAR NOT NULL PRIMARY KEY ,
+    content TEXT NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT now()
+);
